@@ -8,3 +8,9 @@ xrandr --output DP-0 --mode 1600x900
 
 ### Wacom Express Keys
 xsetwacom set "Wacom Intuos S 2 Pad pad" Button 1 key "-hyper"
+xsetwacom set "Wacom Intuos S 2 Pad pad" Button 3 key "x"
+xsetwacom set "Wacom Intuos S 2 Pad pad" Button 8 key "ctrl -"
+xsetwacom set "Wacom Intuos S 2 Pad pad" Button 9 key "ctrl shift +"
+
+xsetwacom set "Wacom Intuos S 2 Pen stylus" Button 3 key "ctrl"
+xsetwacom set "Wacom Intuos S 2 Pen stylus" Button 2 key "e"
