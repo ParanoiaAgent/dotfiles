@@ -51,7 +51,7 @@ My current BSPWM config themed with pywal support. Mostly for personal use.
   - [Nerd Fonts Hack](https://aur.archlinux.org/packages/nerd-fonts-hack/)
   - [Nerd Fonts Jetbrains Mono](https://aur.archlinux.org/packages/nerd-fonts-jetbrains-mono/)
 
-## Keyboard Shortcuts
+## SXHKD Shortcuts
 
 | Function                        | Keys                                     |
 | ------------------------------- | ---------------------------------------- |
