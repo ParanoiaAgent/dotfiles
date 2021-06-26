@@ -83,10 +83,10 @@ My current BSPWM config themed with pywal support. Mostly for personal use.
 
 ## Screenshots
 
-#### Clean
+#### Desktop
 
-![desktop](./ufetch_cava.png)
+![Desktop](./Desktop.png)
 
-#### Spotify
+#### Tiling Windows
 
-![lockscreen](./spotify.png)
+![Windows](./Windows.png)
