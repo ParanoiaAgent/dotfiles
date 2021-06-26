@@ -1,0 +1,10 @@
+#!/bin/sh
+
+### Keyboard Layout
+setxkbmap -model abnt2 -layout br -variant abnt2
+
+### Display Resolution
+xrandr --output DP-0 --mode 1600x900
+
+### Wacom Express Keys
+xsetwacom set "Wacom Intuos S 2 Pad pad" Button 1 key "-hyper"
