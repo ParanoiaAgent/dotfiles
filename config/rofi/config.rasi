@@ -1,0 +1,10 @@
+/** Basic config file **/
+
+configuration {
+  font: "Noto Sans Regular 14.5";
+  hide-scrollbar: true;
+  show-icons: true;
+  theme: "~/.cache/wal/colors-rofi-dark";
+  icon-theme: "Papirus";
+  kb-cancel: "Escape,Alt+F1";
+}

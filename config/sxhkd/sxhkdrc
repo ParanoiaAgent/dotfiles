@@ -1,0 +1,104 @@
+### SXHKD Settings ###
+
+### Spawn Terminal
+super + Return
+	kitty
+
+### Program Launcher
+super + space
+	rofi -show drun
+
+### Launch Software
+super + {w,e}
+    {firefox,thunar}
+
+### Lockscreen
+super + x
+    ./.config/i3lock/lockscreen
+
+### Flameshot
+Print 
+    {flameshot gui} 
+
+### Close/Kill Window
+super + {_,shift + }q
+	bspc node -{c,k}
+
+### Quit/Restart BSPWM
+super + ctrl + {q,r}
+	bspc {quit,wm -r}
+
+### Set Window States
+super + {F9,F10,F11}
+    bspc node --state {tiled,floating,fullscreen}
+
+### Toggle Tiled/Floating
+super + d
+    bspc node -t "~"{floating,tiled}
+
+### Toggle Fullscreen
+super + f
+    bspc node -t {fullscreen,tiled}
+
+### Toggle Monocle
+super + shift + f
+    bspc desktop -l next
+
+### Move Node in Given Direction
+super + {Left,Down,Up,Right,h,j,k,l}
+    bspc node -f {west,south,north,east,west,south,north,east}
+
+### Send Window in Given Direction
+super + shift + {Left,Down,Up,Right,h,j,k,l}
+    bspc node -s {west,south,north,east,west,south,north,east}
+
+### Preselect Window Split
+super + ctrl + {Left,Down,Up,Right,h,j,k,l}
+	bspc node -p {west,south,north,east,west,south,north,east}
+
+### Preselect Window Split Size
+super + ctrl + {1-9}
+	bspc node -o 0.{1-9}
+
+### Cancel Window Split
+super + ctrl + space
+	bspc node -p cancel
+
+### Cycle Windows
+alt + {_,shift + }Tab
+	bspc node -f {next,prev}.local.!hidden.window
+
+### Focus on/Send to Desktop
+super + {_,shift + }{1-9,0}
+    bspc {desktop -f,node -d} '^{1-9,10}'
+
+### Resize Windows
+super + alt + {Left,Down,Up,Right,h,j,k,l}
+  bspc node -z {left -20 0 || bspc node -z right -20 0, \
+                bottom 0 20 || bspc node -z top 0 20,\
+                top 0 -20 || bspc node -z bottom 0 -20,\
+                right 20 0 || bspc node -z left 20 0,\
+                left -20 0 || bspc node -z right -20 0, \
+                bottom 0 20 || bspc node -z top 0 20,\
+                top 0 -20 || bspc node -z bottom 0 -20,\
+                right 20 0 || bspc node -z left 20 0}
+
+### Move Floating Window
+super + alt + ctrl + {Left,Down,Up,Right,h,j,k,l}
+	bspc node -v {-20 0,0 20,0 -20,20 0,-20 0,0 20,0 -20,20 0}
+
+### Window Selector
+super + Tab
+    rofi -show windowcd
+
+### Window Flip
+super + {s,a}
+	bspc node @/ -F {horizontal,vertical}
+
+### Window Rotation
+super + shift + {s,a}
+	bspc node @/ -R {90,270}
+
+### Reload SXHKD Files
+super + Escape
+	pkill -USR1 -x sxhkd
