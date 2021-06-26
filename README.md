@@ -3,7 +3,7 @@ My current BSPWM config themed with pywal support. Mostly for personal use.
 ## Current Config
 
 - Operating System
-  - Arch Linux
+  - [Arch Linux](https://archlinux.org/)
 - Window Manager
   - [BSPWM](https://github.com/baskerville/bspwm)
 - Hotkey Daemon
@@ -80,3 +80,5 @@ My current BSPWM config themed with pywal support. Mostly for personal use.
 | Layout Flip                     | Super + A/S                              |
 | Layout Rotation                 | Super + Shift + A/S                      |
 | Reload SXHKD Files              | Super + Escape                           |
+
+## Screenshots
