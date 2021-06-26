@@ -46,7 +46,7 @@ My current BSPWM config themed with pywal support. Mostly for personal use.
   - [Themix GUI Designer](https://github.com/themix-project/oomox)
   - [Neofetch](https://github.com/dylanaraps/neofetch)
 - Fonts
-  -[Noto Fonts](https://archlinux.org/packages/extra/any/noto-fonts/)
-  -[Noto Fonts CJK](https://archlinux.org/packages/extra/any/noto-fonts-cjk/)
-  -[Nerd Fonts Hack](https://aur.archlinux.org/packages/nerd-fonts-hack/)
-  -[Nerd Fonts Jetbrains Mono](https://aur.archlinux.org/packages/nerd-fonts-jetbrains-mono/)
+  - [Noto Fonts](https://archlinux.org/packages/extra/any/noto-fonts/)
+  - [Noto Fonts CJK](https://archlinux.org/packages/extra/any/noto-fonts-cjk/)
+  - [Nerd Fonts Hack](https://aur.archlinux.org/packages/nerd-fonts-hack/)
+  - [Nerd Fonts Jetbrains Mono](https://aur.archlinux.org/packages/nerd-fonts-jetbrains-mono/)
