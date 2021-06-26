@@ -82,3 +82,11 @@ My current BSPWM config themed with pywal support. Mostly for personal use.
 | Reload SXHKD Files              | Super + Escape                           |
 
 ## Screenshots
+
+#### Clean
+
+![desktop](./ufetch_cava.png)
+
+#### Spotify
+
+![lockscreen](./spotify.png)
