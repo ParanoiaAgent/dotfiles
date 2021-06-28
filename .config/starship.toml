@@ -4,3 +4,10 @@ add_newline = false
 # Make prompt a single line instead of two lines
 [line_break]
 disabled = true
+
+# Disable git modules
+[git_branch]
+disabled = true
+
+[git_status]
+disabled = true
