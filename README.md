@@ -65,7 +65,9 @@ My current BSPWM config themed with pywal support. Mostly for personal use.
 | Quit/Restart BSPWM              | Super + Ctrl + Q/R                       |
 | Set Window States               | Super + F9/F10/F11                       |
 | Toggle Tiled/Floating           | Super + D                                |
-| Toggle Fullscreen/Monocle       | Super + (Shift +) F                      |
+| Toggle Sticky                   | Super + Shift + D                        |
+| Toggle Fullscreen               | Super + F                                |
+| Toggle Monocle                  | Super + Shift + F                        |
 | Move Node in Given Direction    | Super + Arrow Keys/Vim Keys              |
 | Send Window in Given Direction  | Super + Shift + Arrow Keys/Vim Keys      |
 | Preselect Window Split          | Super + Ctrl + Arrow Keys/Vim Keys       |
