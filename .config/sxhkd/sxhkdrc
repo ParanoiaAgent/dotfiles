@@ -35,6 +35,10 @@ super + {F9,F10,F11}
 ### Toggle Tiled/Floating
 super + d
     bspc node -t "~"{floating,tiled}
+    
+### Toggle Sticky
+super + shift + d
+    bspc node -g {sticky}
 
 ### Toggle Fullscreen
 super + f
