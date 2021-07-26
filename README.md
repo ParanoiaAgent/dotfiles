@@ -36,8 +36,6 @@ My current BSPWM config themed with pywal support. Mostly for personal use.
   - [Ranger](https://github.com/ranger/ranger)
 - Screenshots
   - [Flameshot](https://github.com/flameshot-org/flameshot)
-- Matrix Client
-  - [Mirage](https://github.com/mirukana/mirage)
 - Shell Prompt
   - [Starship](https://github.com/starship/starship)
 - Theming
