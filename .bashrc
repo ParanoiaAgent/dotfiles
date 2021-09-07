@@ -13,6 +13,3 @@ PS1='[\u@\h \W]\$ '
 
 # Starship Prompt
 eval "$(starship init bash)"
-
-# Add /bin to PATH
-export PATH="/home/paranoia-agent/.local/bin:$PATH"
