@@ -5,6 +5,10 @@ add_newline = false
 [line_break]
 disabled = true
 
+# Change "❯" color
+[character]
+success_symbol = "[❯](red)"
+
 # Disable git modules
 [git_branch]
 disabled = true
