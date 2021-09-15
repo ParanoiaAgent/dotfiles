@@ -217,12 +217,12 @@ interval = 1.0
 accumulate-stats = true
 
 format-connected = <label-connected>
-format-connected-prefix = 說
+format-connected-prefix = 度
 format-connected-background = ${colors.bground}
 format-connected-padding = 1
 
 format-disconnected = <label-disconnected>
-format-disconnected-prefix = ﲁ
+format-disconnected-prefix = ﴹ
 format-disconnected-background = ${colors.bground}
 format-disconnected-padding = 1
 
