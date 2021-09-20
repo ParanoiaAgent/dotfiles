@@ -51,35 +51,35 @@ My current BSPWM config themed with pywal support. Mostly for personal use.
 
 ## SXHKD Shortcuts
 
-| Function                        | Keys                                     |
-| ------------------------------- | ---------------------------------------- |
-| Spawn Terminal                  | Super + Return                           |
-| Spawn Browser                   | Super + W                                |
-| Spawn File Manager              | Super + E                                |
-| Launch Software                 | Super + Space                            |
-| Lock Screen                     | Super + X                                |
-| Screenshot                      | PrtSc                                    |
-| Close/Kill Window               | Super + (Shift +) Q                      |
-| Quit/Restart BSPWM              | Super + Ctrl + Q/R                       |
-| Set Window States               | Super + F9/F10/F11                       |
-| Toggle Tiled/Floating           | Super + D                                |
-| Toggle Sticky                   | Super + Shift + D                        |
-| Toggle Fullscreen               | Super + F                                |
-| Toggle Monocle                  | Super + Shift + F                        |
-| Move Node in Given Direction    | Super + Arrow Keys/Vim Keys              |
-| Send Window in Given Direction  | Super + Shift + Arrow Keys/Vim Keys      |
-| Preselect Window Split          | Super + Ctrl + Arrow Keys/Vim Keys       |
-| Preselect Window Split Size     | Super + Ctrl + 1-9                       |
-| Cancel Window Split             | Super + Ctrl + Space                     |
-| Cycle Windows                   | Alt + (Shift +) Tab                      |
-| Focus on Workspace              | Super + 1-0                              |
-| Send to Workspace               | Super + Shift + 1-0                      |
-| Resize Window                   | Super + Alt + Arrow Keys/Vim Keys        |
-| Move Floating Window            | Super + Alt + Ctrl + Arrow Keys/Vim Keys |
-| Window Selector                 | Super + Tab                              |
-| Layout Flip                     | Super + A/S                              |
-| Layout Rotation                 | Super + Shift + A/S                      |
-| Reload SXHKD Files              | Super + Escape                           |
+| Function                        | Keys                                        |
+| ------------------------------- | --------------------------------------------|
+| Spawn Terminal                  | Super + Return                              |
+| Spawn Browser                   | Super + W                                   |
+| Spawn File Manager              | Super + E                                   |
+| Launch Software                 | Super + Space                               |
+| Lock Screen                     | Super + X                                   |
+| Screenshot                      | PrtSc                                       |
+| Close/Kill Window               | Super + (Shift +) Q                         |
+| Quit/Restart BSPWM              | Super + Ctrl + Q/R                          |
+| Set Window States               | Super + F9/F10/F11                          |
+| Toggle Tiled/Floating           | Super + D                                   |
+| Toggle Sticky                   | Super + Shift + D                           |
+| Toggle Fullscreen               | Super + F                                   |
+| Toggle Monocle                  | Super + Shift + F                           |
+| Move Node in Given Direction    | Super + Arrow Keys/Vim Keys                 |
+| Send Window in Given Direction  | Super + Shift + Arrow Keys/Vim Keys         |
+| Preselect Window Split          | Super + Ctrl + Arrow Keys/Vim Keys          |
+| Preselect Window Split Size     | Super + Ctrl + 1-9                          |
+| Cancel Window Split             | Super + Ctrl + Space                        |
+| Cycle Windows                   | Alt + (Shift +) Tab                         |
+| Focus on Workspace              | Super + 1-0                                 |
+| Send to Workspace               | Super + Shift + 1-0                         |
+| Resize Window                   | Super + Alt + (Shift +) Arrow Keys/Vim Keys |
+| Move Floating Window            | Super + Alt + Ctrl + Arrow Keys/Vim Keys    |
+| Window Selector                 | Super + Tab                                 |
+| Layout Flip                     | Super + A/S                                 |
+| Layout Rotation                 | Super + Shift + A/S                         |
+| Reload SXHKD Files              | Super + Escape                              |
 
 ## Screenshots
 
