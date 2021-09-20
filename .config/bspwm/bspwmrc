@@ -32,4 +32,4 @@ bspc config gapless_monocle      true
 
 ### Rules
 bspc rule -a Pavucontrol state=floating
-bspc rule -a kitty rectangle=420x200+585+385
+bspc rule -a kitty rectangle=420x220+585+385
