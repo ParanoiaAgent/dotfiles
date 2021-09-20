@@ -5,7 +5,7 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 polybar main &
 picom &
-dunst &
+dunst -nb $(xrdb -query | grep "\*\.background" | awk '{print $2}') &
 wal -R &
 xidlehook --not-when-fullscreen --not-when-audio --timer 300 ${HOME}/.config/i3lock/lockscreen normal &
 
