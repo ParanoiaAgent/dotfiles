@@ -93,7 +93,7 @@ super + alt + ctrl + {Left,Down,Up,Right,h,j,k,l}
 
 ### Window Selector
 super + Tab
-    rofi -show windowcd
+    rofi -show window
 
 ### Window Flip
 super + {s,a}
